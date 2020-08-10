@@ -32,7 +32,7 @@ public class Counter
     
     /**
      * Reads data values from a file and add them to the sum and count.
-     * If the file doesn�t exist then print �File not found: filename� and return. 
+     * If the file doesn't exist then print "File not found: filename" and return. 
      */
     public void readfile(String filename)
     {
@@ -62,7 +62,8 @@ public class Counter
     }
     
     /**
-     * 
+     * Reads a single line and returns it.
+     * @return a line or null if it is not readable
      */
     private String readOneLine() 
     {
